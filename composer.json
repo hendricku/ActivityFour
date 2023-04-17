@@ -1,0 +1,19 @@
+{
+    "name": "hendrick/new-php-file-project",
+    "description": "php project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Hendrick\\NewPhpFileProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hendricku"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "google/cloud-firestore": "^1.29"
+    }
+}
